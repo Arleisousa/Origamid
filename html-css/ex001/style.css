@@ -6,9 +6,10 @@
 
 
 .estados {
-    color: rgb(24, 107, 24);
+    color: seagreen;
     text-decoration: none;
-    font-size: 27px;
+    font-size: 25px;
+    
 }
 
 .hoje {
@@ -24,3 +25,4 @@
 .voltar {
     text-decoration: none;
 }
+
