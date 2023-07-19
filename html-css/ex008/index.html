@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="arquivo.php" method="get">
+        <label for="isenha">Digite sua senha</label>
+        <input type="senha" id="isenha" name="senha">
+        <button>Enviar</button>
+
+        <label for="parcelas"></label>
+        <select name="parcelas" id="parcelas">
+            <option value="1x">1x de R$200</option>
+            <option value="2x">2x de R$300</option>
+            <option value="3x">3x de R$400</option>
+        </select>
+        <button>Enviar</button>
+    </form>
+
+    <label for="mensagem">mensagem</label>
+    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+</body>
+
+</html>
