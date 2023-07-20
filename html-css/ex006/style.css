@@ -1,13 +1,35 @@
 @charset "UTF-8";
 
+:root {
+    --cor-primaria: #e21;
+    --cor-primaria-escura: #900;
+    --fundo-2: #f7f7f7;
+    --fundo-1: #ffffff;
+    --texto: #000000;
+    --subtitulo: rgba(0, 0, 0, 0.2);
+    
+} 
+
+:root {
+    --fundo-1: #111111;
+    --fundo-2: #000000;
+    --texto: #ffffff;
+    --subtitulo:  rgba(255, 255, 255, 0.2)
+   }
+
+@media (prefers-color-scheme: dark) {
+   
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    background-color: lightslategray;
+    background-color: var(--fundo-2);
     display: grid;
     gap: 60px;
     justify-items: center;
     margin-top: 60px;
+    color: var(--texto);
 }
 
 img {
@@ -38,10 +60,10 @@ p {
 }
 
 .menu a {
-    background-color: white;
+    background-color: var(--fundo-1);
     padding: 15px 30px;
     border-radius: 4px;
-    color: black;
+    color: var(--texto);
     text-transform: uppercase;
     margin-bottom: 40px;
     border: 3px solid transparent;
@@ -59,7 +81,7 @@ p {
 }
 
 .introducao {
-    background-color: white;
+    background-color: var(--fundo-1);
     padding: 40px;
     text-align: right;
     position: relative;
@@ -73,7 +95,7 @@ p {
     content: "";
     width: 60px;
     height: 4px;
-    background-color: #e21;
+    background-color: var(--cor-primaria);
     position: absolute;
     top: 30px;
     right: -30px;
@@ -85,21 +107,21 @@ p {
 }
 
 .botao {
-    background-color: #e21;
-    color: white;
+    background-color: var(--cor-primaria);
+    color: var(--fundo-1);
     padding: 15px 30px;
     border-radius: 4px;
     text-transform: uppercase;
 }
 
 .botao:hover {
-    background-color: darkred;
+    background-color: var(--cor-primaria-escura);
 }
 
 .subtitulo {
     font-size: 64px;
     text-transform: uppercase;
-    color: rgb(0, 0, 0, 0.2);
+    color: var(--subtitulo);
     text-align: right;
     padding: 40px;
     align-self: center;
@@ -107,7 +129,7 @@ p {
 }
 
 .vantagens {
-    background-color: white;
+    background-color: var(--fundo-1);
     padding: 40px;
 }
 
@@ -129,7 +151,7 @@ p {
 }
 
 .rodape {
-    background-color: white;
+    background-color: var(--fundo-1);
     width: 100%;
     text-align: center;
     padding: 40px;
