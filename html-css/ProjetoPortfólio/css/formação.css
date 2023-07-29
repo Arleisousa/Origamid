@@ -1,5 +1,5 @@
 .formacao {
-    background-color:rgb(45, 44, 44);
+    background-color: rgb(23, 24, 36);
     color: white;
 }
 
@@ -26,8 +26,8 @@
 }
 
 .formacao .subtitulo {
-    color: black;
-    max-width: 5ch;
+    color: #e7e7e7;
+    max-width: 4ch;
 
 }
 
@@ -39,7 +39,7 @@
     color: #a3a3a3;
 }
 
-.formacao-textp strong {
+.formacao-texto strong {
     color: #ffff;
 }
 
@@ -48,6 +48,7 @@
     background-color: black;
     padding: 20px;
     border-radius: 4px;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
 }
@@ -79,9 +80,10 @@
     display: block;
     width: 4px;
     height: 20px;
-    background: linear-gradient(#b6f829, #67dd0a);
+    background: linear-gradient(blue, lightblue);
     position: absolute; 
-    left: -24;
+    left: -20px;
+    
 }
 
 .faculdade-instituicao {
