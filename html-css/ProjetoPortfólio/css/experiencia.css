@@ -5,6 +5,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 100px;
+    
 }
 
 .experiencia .subtitulo {
@@ -35,7 +36,7 @@
     display: block;
     width: 4px;
     height: 20px;
-    background: linear-gradient(#b6f829, #67dd0a);
+    background: linear-gradient(blue, lightblue);
     position: absolute;
     top: 20px;
     left: -4;
