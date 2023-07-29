@@ -8,7 +8,7 @@
 }
 
 .experiencia .subtitulo {
-    color: #e0e0e0;
+    color: #e7e7e7;
 }
 
 .experiencia-texto {
@@ -16,19 +16,15 @@
     line-height: 1.33;
     max-width: 40ch;
     margin-bottom: 60px;
-    color: #525252;
-}
-
-.experiencia-texto strong {
-    color: #141414;
+    color: white;
 }
 
 .empresa {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px 20px;
-    padding: 20px;
-    background-color: #f5f5f5;
+    padding: 30px;
+    background-color: black;
     margin-bottom: 20px;
     border-radius: 4px;
     position: relative;
@@ -64,7 +60,7 @@
 .empresa-texto {
     font-size: 0.875rem;
     line-height: 1.4;
-    color: #525252;
+    color: white;
 }
 
 .empresa-habilidades {
@@ -78,7 +74,7 @@
     font-size: 0.875rem;
     line-height: 1.4;
     border-radius: 4px;
-    background: #ffffff;
+    background: black;
     padding: 5px 10px;
 }
 
