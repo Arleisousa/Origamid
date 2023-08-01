@@ -1,7 +1,15 @@
 /* Estilos globais (mantidos iguais) */
 
-/* Estilos dos projetos */
-.main {
+/* Estilos da caixa que envolve os projetos */
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza a caixa na tela */
+    background-color: rgb(23, 24, 36);
+    padding: 20px; /* Adiciona um espaçamento interno */
+  }
+  
+  /* Estilos dos projetos */
+  .main {
     padding: 50px 0;
     text-align: center;
   }
@@ -16,7 +24,7 @@
     margin: 5px;
     padding: 10px 20px;
     text-decoration: none;
-    background-color: #4CAF50;
+    background-color: blue;
     color: #fff;
     border-radius: 5px;
   }
@@ -39,6 +47,11 @@
     border-radius: 10px;
     padding: 20px;
     max-width: 300px; /* Ajusta a largura das caixas */
+    transition: transform 0.2s ease-in-out; /* Adiciona uma transição suave */
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px); /* Efeito de levantar um pouco a caixa ao passar o mouse */
   }
   
   .project-card img {
@@ -47,6 +60,11 @@
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 10px;
+    transition: filter 0.2s ease-in-out; /* Adiciona uma transição suave */
+  }
+  
+  .project-card img:hover {
+    filter: grayscale(100%); /* Efeito de escala de cinza ao passar o mouse */
   }
   
   .project-card h3 {
@@ -59,12 +77,20 @@
     color: #666;
     font-size: 14px;
   }
+
+  .project-card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho ao passar o mouse */
+  }
+  
+  
+  
+  
+
+
+  
   
   /* Ajusta o posicionamento dos projetos */
   .align-right {
     justify-content: flex-end;
   }
-  
-  
-  
   

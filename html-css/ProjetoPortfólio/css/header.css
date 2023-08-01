@@ -30,7 +30,9 @@
 }
 
 .header-menu a:hover {
-    border-bottom: 1px solid white;
+    transform: scale(1.10); /* Aumenta o tamanho ao passar o mouse */
+    opacity: 0.8; /* Reduz a opacidade ao passar o mouse */
+   
     
 }
 
