@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    height: 900px;
+    background-color: blue;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.projeto1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px;
+}
+
+.projeto2 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    justify-self: end;
+    grid-column: 1;
+    margin: 20px;
+   
+}
+
+.projeto3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 20px;
+    grid-column: 1;
+   
+
+}
+
+.projeto4 {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin: 20px;
+    justify-self: end;
+    grid-column: 1;
+    
+}
