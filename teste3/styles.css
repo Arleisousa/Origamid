@@ -1,0 +1,75 @@
+/* Estilos globais (mantidos iguais) */
+
+/* Estilos da caixa que envolve os projetos */
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza a caixa na tela */
+    background-color: rgb(23, 24, 36);
+    padding: 20px; /* Adiciona um espaçamento interno */
+  }
+  
+  /* Estilos dos projetos */
+  .main {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Estilos dos projetos */
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .project-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .project-card {
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px; /* Ajusta a largura das caixas */
+  }
+  
+  .project-card img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .project-card p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  /* Ajusta o posicionamento dos projetos */
+  .align-right {
+    justify-content: flex-end;
+  }
+  
