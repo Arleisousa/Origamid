@@ -1,7 +1,7 @@
 
 .introducao {
     max-width: 1200px;
-    padding: 40px 20px;
+    padding: 80px 20px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -10,7 +10,9 @@
 }
 
 .introducao img {
-    border-radius: 4px ;
+    border-radius: 4px;
+    height: 380px;
+    width: auto;
 }
 
 .introducao h1 {
