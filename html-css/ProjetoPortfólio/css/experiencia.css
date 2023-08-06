@@ -89,3 +89,9 @@
         color: white;
     }
 }
+
+@media  (max-width: 600px) {
+    .experiencia .subtitulo {
+        max-width: 9ch;
+    }
+}

@@ -65,3 +65,9 @@
 
 }
 
+@media (max-width: 600px) {
+    .introducao img {
+        display: none;
+    }
+}
+

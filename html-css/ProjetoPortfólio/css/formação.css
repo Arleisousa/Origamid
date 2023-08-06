@@ -146,6 +146,7 @@
     }
 
     .formacao .subtitulo {
+
         color:#ffff;
     }
 
@@ -158,3 +159,11 @@
         margin-bottom: 10px;
     }
 }
+
+@media (max-width: 500px) {
+    .formacao .subtitulo {
+        max-width: 9ch;
+    }
+
+} 
+    
