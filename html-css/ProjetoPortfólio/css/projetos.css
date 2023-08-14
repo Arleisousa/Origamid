@@ -1,0 +1,89 @@
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    background-color: rgb(23, 24, 36);
+    padding: 30px; 
+  }
+
+  .container h2 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .projetos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .titulo-projeto h3 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 100px auto 40px auto;
+  }
+  
+  .project-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .project-card {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    transition: transform 0.2s ease-in-out; 
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px); 
+  }
+  
+  .project-card img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px; 
+  }
+
+  .project-card h3 {
+    text-align: center;
+    font-size: 24px;
+    color: rgba(30, 27, 27, 0.974);
+  }
+  
+  .project-card p {
+    margin: 5px;
+    color: black;
+    font-size: 14px;
+  }
+
+  .project-card:hover {
+    transform: scale(1.05); 
+  }
+
+  .buttons {
+    text-align: center;
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .btn:hover {
+    background-color: darkblue;
+  }
+
+  /* Ajusta o posicionamento dos projetos */
+  .align-right {
+    justify-content: flex-end;
+  }
+  
