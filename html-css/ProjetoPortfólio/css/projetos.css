@@ -57,7 +57,7 @@
   .project-card p {
     margin: 5px;
     color: black;
-    font-size: 14px;
+    font-size: 1.08rem;
   }
 
   .project-card:hover {
