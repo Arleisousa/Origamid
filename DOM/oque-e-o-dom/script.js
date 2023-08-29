@@ -21,7 +21,6 @@ console.log(linguagemNav)
 
 // Retorne a largura da janela 
 
-
 const tamanhoJan = window.screen.availWidth
 
 console.log(tamanhoJan)
