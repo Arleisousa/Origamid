@@ -1,8 +1,9 @@
-function teste(lado) {
+function teste(lado) //isso  é um parametro
+{
     return lado + lado
 }
 
-console.log(teste(8))
+console.log(teste(8)) //o 8 é um argumento
 
 function pi() {
     return 3.14;
