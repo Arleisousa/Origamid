@@ -67,3 +67,13 @@ var carro = {
         }
     }
   }
+
+  const botao = document.querySelector('.botao')
+
+  botao.addEventListener('click', function() {
+    event.preventDefault()
+    const p = document.querySelector('p')
+    p.textContent = 'clicou'
+    document.body.appendChild(paragrafo);
+  }
+  )
