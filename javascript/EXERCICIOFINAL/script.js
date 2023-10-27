@@ -1,16 +1,16 @@
 const img = document.querySelectorAll('#galeria li img')
 
-function galeriaTrocar(event) {
-    const principal = document.querySelector('#img-principal')
+
+function GaleriaTrocar(event) {
+    const imgPrincipal = document.querySelector('#img-principal')
     const clicada = event.currentTarget
-    principal.src = clicada.src
-    console.log(clicada.src)
+    imgPrincipal.src = clicada.src
+
+}
+
+function galeriaClicada(imagem) {
+    imagem.addEventListener('click', GaleriaTrocar)
 }
 
 
-
-function galeriaClique(imagem) {
-    imagem.addEventListener('click', galeriaTrocar)
-}
-
-img.forEach(galeriaClique)
+img.forEach(galeriaClicada)
