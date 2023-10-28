@@ -24,13 +24,16 @@ const transacoes = [
     },
   ];
 
-  let taxaTotal = 0;
+  let taxaTotal = 0
+  let RecebimentoTotal = 0
 
   transacoes.forEach((item) => {
     const numeroLimpo = +item.valor.replace('R$ ', '')
 
     if(item.descricao.slice(0 , 4) === 'Taxa') {
-      taxaTotal = taxaTotal + item.valor
+      taxaTotal = taxaTotal + numeroLimpo
+    } else {
+      RecebimentoTotal = RecebimentoTotal + numeroLimpo
     }
   })
 
