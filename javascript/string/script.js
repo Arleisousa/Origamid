@@ -48,7 +48,7 @@ transacao1.slice(3, 6); // ósi
 const instrumento = 'Guitarra';
 
 instrumento.indexOf('r'); // 5
-instrumento.lastIndexOf('r'); // 6
+instrumento.lastIndexOf('r');
 instrumento.indexOf('ta'); // 3
 
 /////////////////////////////////////////////////////////////////////////////////////////////

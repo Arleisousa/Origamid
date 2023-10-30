@@ -37,24 +37,44 @@ const transacoes = [
     }
   })
 
-
-
-  
   // Retorne uma array com a lista abaixo
   const transportes = 'Carro;Avião;Trem;Ônibus;Bicicleta';
+
+
+  const arrayTransportes = transportes.split(';')
+
   
   // Substitua todos os span's por a's
-  const html = `<ul>
+  let html = `<ul>
                   <li><span>Sobre</span></li>
                   <li><span>Produtos</span></li>
                   <li><span>Contato</span></li>
                 </ul>`;
   
+  html = html.split('span').join('a')
+
+
   // Retorne o último caracter da frase
   const frase2 = 'Melhor do ano!';
   
+  console.log(frase2.slice(-1))
+
   // Retorne o total de taxas
   const transacoes2 = ['Taxa do Banco', '   TAXA DO PÃO', '  taxa do mercado', 'depósito Bancário', 'TARIFA especial'];
+
+
+  let taxasTotal = 0;
+  transacoes2.forEach((item) => {
+    item = item.toLocaleLowerCase()
+    item = item.trim()
+    item = item.slice(0, 4)
+
+    if(item === 'taxa') {
+      taxasTotal++
+    }
+
+  })
   
+  console.log(taxasTotal)
   
   
